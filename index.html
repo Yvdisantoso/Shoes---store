@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Sepatu Keren</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 1rem;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 0.5rem 0;
+    }
+    .card p {
+      color: #666;
+    }
+    .btn {
+      background: #007bff;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Toko Sepatu Keren</h1>
+    <p>Temukan sepatu terbaik untuk gaya kamu!</p>
+  </header>
+  <main class="container">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1606813909790-0249d6f5685e" alt="Sepatu 1">
+      <h3>Sepatu Kasual</h3>
+      <p>Nyaman dipakai untuk aktivitas harian.</p>
+      <a class="btn" href="#">Beli Sekarang</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1596461404969-b372ba0f8949" alt="Sepatu 2">
+      <h3>Sepatu Olahraga</h3>
+      <p>Ringan dan kuat untuk berolahraga.</p>
+      <a class="btn" href="#">Beli Sekarang</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Sepatu 3">
+      <h3>Sepatu Sneakers</h3>
+      <p>Gaya kekinian untuk anak muda.</p>
+      <a class="btn" href="#">Beli Sekarang</a>
+    </div>
+  </main>
+</body>
+</html>
